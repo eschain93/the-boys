@@ -7,11 +7,17 @@ header{
     margin: 0%;
     width: 100%;
 }
+.header image{
+    display: block;
+    max-width: 1200;
+    max-height: 762;
+    width: auto;
+    height: auto;
+}
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:auto
 }
 body{
     background-color: darkred;
