@@ -28,7 +28,7 @@ body{
     font-weight: bold;
     color:lightgrey;
     vertical-align: super;
-    font-size: small;
+    font-size: medium;
 }
 h1 span{
     color: darkred;
@@ -42,4 +42,22 @@ a{
 h2 span{
     position: relative;
     top:-20px;
+}
+table{
+    text-align: left;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid white;
+}
+tr:not(:first-child):hover{
+    background-color: aquamarine;
+    color: black;
+}
+td{
+    padding: 10px;
+}
+th{
+    padding:5px;
+    font-weight: 900;
 }
